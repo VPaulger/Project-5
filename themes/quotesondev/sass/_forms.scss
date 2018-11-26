@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+
+textarea {
+	padding-left: 3px;
+	width: 100%;
+}
+
+.submit-a-quote {
+
+	p {
+		font-family: exo-light-webfont;
+		margin-bottom: 10px;
+    margin-top: 25px;
+	}
+	
+	input {
+		border: 1px solid $color__border-abbr;
+		border-radius: 2px;
+		background-color: $color__background-body;
+		width: 60%;
+	}
+
+	textarea {
+		border: 1px solid $color__border-abbr;
+		border-radius: 2px;
+		background-color: $color__background-body;
+    height: 80px;
+	}
+
+	.submit-button {
+		font-family: exo-light-webfont;
+		border-radius: 2px;
+		width: 30%;
+		padding: 10px;
+		font-weight: 800;
+	}
+}

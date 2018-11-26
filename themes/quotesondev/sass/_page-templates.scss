@@ -1,0 +1,35 @@
+/*--------------------------------------------------------------
+# Page Templates
+--------------------------------------------------------------*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#page {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 2.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.content-area {
+  width: 100%;
+  display: flex;
+  margin: 4.5rem 175px 1.5rem;
+  width: 700px;
+}
+
+.site-main {
+  width: 100%;
+}
+
+/* All Archives Page */
+
+/* Submit a Quote Page */
