@@ -23,13 +23,35 @@ body {
   width: 100%;
   display: flex;
   margin: 4.5rem 175px 1.5rem;
-  width: 700px;
+  width: 655px;
 }
 
 .site-main {
   width: 100%;
 }
 
+.index-main {
+  display: flex;
+  flex-direction: column;
+}
+
+//tablet media query
+@media (max-width: 1080px){
+  #page {
+    max-width: 100vw;
+  }
+
+  .content-area {
+    width: 100vw;
+    padding: 2.5%;
+    margin: 2rem 175px 1.5rem;
+  }
+}
+
+
+//mobile media query
+@media (max-width: 600px){
+}
 /* All Archives Page */
 
 /* Submit a Quote Page */

@@ -15,6 +15,20 @@ textarea {
 
 /* Headings */
 
+h1 {
+	font-size: 2em;
+}
+
+.error-404 {
+  h1 {
+		font-family: exo-light-webfont;
+	}
+} 
+
+h2 {
+	margin-top: 3rem;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: exo-medium-webfont;
 	margin-top: 0px;
@@ -27,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
 	margin-bottom: $base__space-unit;
 	color: $color__text-screen;
+	font-family: exo-light-webfont;
 }
 
 dfn, cite, em, i {

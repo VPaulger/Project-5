@@ -32,26 +32,23 @@
 	margin: 0 0 $base__space-unit;
 }
 
-  .content-area {
-		position: relative;
-  }
+//large green quotes
+.content-area {
+	position: relative;
+}
 
 @media (min-width: 1080px){
-.content-area:before {
+	.content-area:before {
 		content: "\f10d";
 		align-self: flex-start;
     left: -175px;
-}
-}
-
-@media (min-width: 1080px){
+  }
+	
 	.content-area:after {
     content: "\f10e";
     right: -175px;
-}
-}
-
-@media (min-width: 1080px){
+	}
+	
 	.content-area:after, .content-area:before {
     color: #0c0;
     font-family: FontAwesome;
@@ -62,3 +59,16 @@
 }
 }
 
+//about page styling
+.about-page{
+	font-family: exo-light-webfont;
+
+  a {
+	color: $color__link;
+	text-decoration: none;
+
+		&:hover {
+			color: $color__link-hover;
+		}
+  }
+}

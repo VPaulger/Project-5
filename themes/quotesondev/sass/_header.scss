@@ -1,0 +1,26 @@
+.site-header {
+  margin-top: 3rem;
+}
+
+.site-branding {
+  img {
+    width: 700px;
+  }
+}
+
+//tablet media query
+@media (max-width: 1080px){
+  header {
+    align-self: flex-start;
+  }
+}
+
+//mobile media query
+@media (max-width: 600px){
+  .site-branding {
+    img {
+      width: 80vw;
+      justify-self: flex-start;
+    }
+  }
+}
