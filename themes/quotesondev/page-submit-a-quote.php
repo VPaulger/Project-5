@@ -14,23 +14,33 @@ get_header(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>
 
-			<?php endwhile; // End of the loop. ?>
+      <?php endwhile; // End of the loop. ?>
+      
+      <!-- if user is logged in -->
+      <?php if (is_user_logged_in()) { ?>
 
       <form class="submit-a-quote">
         <p>Author of Quote</p>
-        <input type="text" name="author">
+        <input class="submit-author" type="text" name="author"> 
+        <!-- add rquired feild to each of these  -->
         <br>
         <p>Quote</p>
-        <textarea name="comment" form="usrform"></textarea>
+        <textarea class="submit-quote" name="comment" form="usrform"></textarea>
         <br>
         <p>Where did you find this quote? (e.g. book name)</p>
-        <input type="text" name="quoteSource">
+        <input class="submit-source" type="text" name="quoteSource">
         <br>
         <p>Provide the URL of the quote source, if available.</p>
-        <input type="text" name="quoteURL"><br>
+        <input class="submit-url" type="text" name="quoteURL"><br>
         <br>
         <input class="submit-button" type="submit" value="Submit Quote">
       </form>
+
+      <!-- if used is not logged in -->
+      <?php } else { ?>
+      <p>Sorry, you must be logged in to submit a quote!</p>
+      <a class="login-link" href="<?php echo esc_url( home_url('/wp-login.php')); ?>">Click here to login.</a>
+      <?php } ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

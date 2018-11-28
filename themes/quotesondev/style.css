@@ -1,5 +1,5 @@
 /*!
-Theme Name: Quotes on Dev Starter Theme
+Theme Name: Quotes on Dev
 Theme URI: http://underscores.me/
 Author: RED Academy
 Author URI: http://www.redacademy.com
@@ -331,6 +331,16 @@ textarea {
   font-size: 1rem;
   line-height: 1.5; }
 
+button:hover {
+  border: 2px solid #009900;
+  color: #009900; }
+
+input[type=text]:focus {
+  border: 1px solid #fff; }
+
+.submit-quote:focus {
+  border: 1px solid #fff; }
+
 /* Headings */
 h1 {
   font-size: 2em; }
@@ -338,12 +348,17 @@ h1 {
 .error-404 h1 {
   font-family: exo-light-webfont; }
 
+.search-header a {
+  color: #00cc00;
+  text-decoration: none;
+  font-family: exo-light-webfont; }
+
 h2 {
   margin-top: 3rem; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: exo-medium-webfont;
-  margin-top: 0px;
+  margin-top: 0.2rem;
   clear: both;
   color: #FFFFFF; }
 
@@ -386,6 +401,27 @@ mark, ins {
 
 big {
   font-size: 125%; }
+
+.quote {
+  font-size: 2.5rem;
+  margin-top: 0.2rem; }
+
+.author {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 3rem; }
+  .author a {
+    color: #00cc00;
+    text-decoration: none; }
+    .author a:hover {
+      color: #009900; }
+
+.login-link {
+  color: #00cc00;
+  text-decoration: none;
+  font-family: exo-light-webfont; }
+  .login-link:hover {
+    color: #009900; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -489,6 +525,9 @@ textarea {
   width: 30%;
   padding: 10px;
   font-weight: 800; }
+  .submit-a-quote .submit-button:hover {
+    border: 1px solid #009900;
+    color: #009900; }
 
 .search-form {
   border: none; }
@@ -630,6 +669,10 @@ textarea {
     text-decoration: none; }
     .about-page a:hover {
       color: #009900; }
+
+.search-page-title {
+  border-bottom: 1px dotted #fff;
+  padding-bottom: 1.5rem; }
 
 /*--------------------------------------------------------------
 # Media

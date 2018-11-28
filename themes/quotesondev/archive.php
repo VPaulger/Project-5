@@ -20,6 +20,26 @@ get_header(); ?>
 						the_archive_title( '<h1 class="page-title">', '</h1>' );
 					?>
 				</header><!-- .page-header -->
+				
+
+				<!-- start archive categories -->
+				<?php
+				$categories = get_categories( array(
+					'orderby' => 'name',
+					'order' => 'ASC',
+				));?>
+				
+				<ul class="archive-list">
+				<?php
+        foreach( $categories as $category ) {
+					$categorylink = home_url('/') . $category->taxonomy . '/' . $category->name;?>
+					<li>
+						<a href =<?php echo "$categorylink" ?> class ="button"><?php echo $category->name ?></a>
+				  </li><?php
+				} ?>
+				</ul>
+				<!-- end archive categories -->
+
 
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>

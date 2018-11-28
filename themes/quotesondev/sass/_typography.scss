@@ -13,6 +13,21 @@ textarea {
 	line-height: $font__line-height-body;
 }
 
+button {
+	&:hover {
+		border: 2px solid $color__link-hover;
+		color: $color__link-hover;
+	}
+}
+
+input[type=text]:focus {
+	border: 1px solid #fff;
+}
+
+.submit-quote:focus {
+	border: 1px solid #fff;
+}
+
 /* Headings */
 
 h1 {
@@ -25,13 +40,21 @@ h1 {
 	}
 } 
 
+.search-header {
+	a {
+		color: $color__link;
+		text-decoration: none;
+		font-family: exo-light-webfont;
+	}
+}
+
 h2 {
 	margin-top: 3rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: exo-medium-webfont;
-	margin-top: 0px;
+	margin-top: 0.2rem;
 	clear: both;
 	color: $color__text-screen;
 }
@@ -84,4 +107,36 @@ mark, ins {
 
 big {
 	font-size: 125%;
+}
+
+//index page styling
+.quote {
+	font-size: 2.5rem;
+	margin-top: 0.2rem;
+}
+
+.author {
+	font-size: 1.25rem;
+	font-weight: 400;
+	margin-bottom: 3rem;
+
+	a {
+		color: $color__link;
+		text-decoration: none;
+
+		&:hover {
+			color: $color__link-hover;
+		}
+	}
+}
+
+//login page
+.login-link {
+	color: $color__link;
+	text-decoration: none;
+	font-family: exo-light-webfont;
+
+	&:hover {
+		color: $color__link-hover;
+	}
 }

@@ -50,6 +50,11 @@ textarea {
 		width: 30%;
 		padding: 10px;
 		font-weight: 800;
+
+		&:hover {
+			border: 1px solid $color__link-hover;
+			color: $color__link-hover;
+		}
 	}
 }
 

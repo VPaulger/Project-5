@@ -11,8 +11,8 @@ get_header(); ?>
 		<main id="main" class="index-main site-main" role="main">
 
 			<!-- <h1>The Quote</h1> -->
-			<p class="quote">The Quote</p>
-			<p class="author">Vaughn Paulger</p>
+			<p class="quote">Not all artists are developers but all developers are artists.</p>
+			<p class="author">— Vaughn Paulger  <p class="source"></p></p>
 			<button class="get-quote-button">Show Me Another!</button>
 
 		</main><!-- #main -->
