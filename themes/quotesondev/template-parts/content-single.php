@@ -14,6 +14,7 @@
 		<?php endif; ?>
 
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">

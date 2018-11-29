@@ -71,3 +71,28 @@ table {
   margin: 0 0 $base__space-unit;
   width: 100%;
 }
+
+//archive page
+.archive-list {
+  margin-left: 0;
+  padding-left: 0;
+  line-height: 2;
+
+  li {
+    list-style: none;
+    display: inline;
+    margin-bottom: .5rem;
+    margin-right: 1.125rem;
+  }
+
+  a {
+    font-family: exo-light-webfont;
+    font-size: 1.25rem;
+    color: $color__link;
+    text-decoration: none;
+
+    &:hover {
+      color: $color__link-hover;
+    }
+  }
+}

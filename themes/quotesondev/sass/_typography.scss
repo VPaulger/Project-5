@@ -140,3 +140,28 @@ big {
 		color: $color__link-hover;
 	}
 }
+
+//single post
+.single-post-navigation {
+	a {
+		text-decoration: none;
+		color: $color__link;
+		font-family: exo-light-webfont;
+
+		&:hover {
+			color: $color__link-hover;
+		}
+	}
+}
+
+//tag page
+.tag-page-title {
+	border-bottom: 1px dotted #fff;
+	padding-bottom: 1.5rem;
+	font-size: 2em;
+	font-family: exo-light-webfont;
+}
+
+.tag-entry-content {
+	font-size: 2.5rem;
+}

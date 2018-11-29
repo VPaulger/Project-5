@@ -423,6 +423,22 @@ big {
   .login-link:hover {
     color: #009900; }
 
+.single-post-navigation a {
+  text-decoration: none;
+  color: #00cc00;
+  font-family: exo-light-webfont; }
+  .single-post-navigation a:hover {
+    color: #009900; }
+
+.tag-page-title {
+  border-bottom: 1px dotted #fff;
+  padding-bottom: 1.5rem;
+  font-size: 2em;
+  font-family: exo-light-webfont; }
+
+.tag-entry-content {
+  font-size: 2.5rem; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -483,6 +499,23 @@ table {
   margin: 0 0 1.5rem;
   width: 100%; }
 
+.archive-list {
+  margin-left: 0;
+  padding-left: 0;
+  line-height: 2; }
+  .archive-list li {
+    list-style: none;
+    display: inline;
+    margin-bottom: .5rem;
+    margin-right: 1.125rem; }
+  .archive-list a {
+    font-family: exo-light-webfont;
+    font-size: 1.25rem;
+    color: #00cc00;
+    text-decoration: none; }
+    .archive-list a:hover {
+      color: #009900; }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -501,6 +534,8 @@ textarea {
       align-self: center;
   font-size: 1.25rem;
   padding: .75rem 2.25rem; }
+  .get-quote-button:focus {
+    border: 2px solid #0c0; }
 
 .submit-a-quote p {
   font-family: exo-light-webfont;
@@ -511,20 +546,23 @@ textarea {
   border: 1px solid #00cc00;
   border-radius: 2px;
   background-color: #222222;
-  width: 60%; }
+  width: 60%;
+  color: white; }
 
 .submit-a-quote textarea {
   border: 1px solid #00cc00;
   border-radius: 2px;
   background-color: #222222;
-  height: 80px; }
+  height: 80px;
+  color: white; }
 
 .submit-a-quote .submit-button {
   font-family: exo-light-webfont;
   border-radius: 2px;
   width: 30%;
   padding: 10px;
-  font-weight: 800; }
+  font-weight: 800;
+  color: #00cc00; }
   .submit-a-quote .submit-button:hover {
     border: 1px solid #009900;
     color: #009900; }

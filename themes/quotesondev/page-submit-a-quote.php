@@ -21,11 +21,11 @@ get_header(); ?>
 
       <form class="submit-a-quote">
         <p>Author of Quote</p>
-        <input class="submit-author" type="text" name="author"> 
+        <input class="submit-author" type="text" name="author" required> 
         <!-- add rquired feild to each of these  -->
         <br>
         <p>Quote</p>
-        <textarea class="submit-quote" name="comment" form="usrform"></textarea>
+        <textarea class="submit-quote" name="comment" form="usrform" required></textarea>
         <br>
         <p>Where did you find this quote? (e.g. book name)</p>
         <input class="submit-source" type="text" name="quoteSource">
